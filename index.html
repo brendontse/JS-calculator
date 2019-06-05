@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Calculator</title>
-  </head>
-  <body>
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
     <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
-  </body>
+    <h2>Addition</h2>
+    <form id="add">
+      <div class="form-group">
+        <label form="add1">1st number:</label>
+        <input id="add1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label form="add2">2nd number:</label>
+        <input id="add2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="button">Submit!</button>
+    </form>
+    <div id="addoutput">
+    </div>
+    <h2>Subtraction</h2>
+    <form id="subtract">
+      <div class="form-group">
+        <label form="subtract1">1st number:</label>
+        <input id="subtract1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label form="subtract2">2nd number:</label>
+        <input id="subtract2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="button">Submit!</button>
+    </form>
+    <div id="subtractoutput">
+    </div>
+    <h2>Mutiplication</h2>
+    <form id="multiply">
+      <div class="form-group">
+        <label form="multiply1">1st number:</label>
+        <input id="multiply1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label form="multiply2">2nd number:</label>
+        <input id="multiply2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="button">Submit!</button>
+    </form>
+    <div id="multiplyoutput">
+    </div>
+    <h2>Division</h2>
+    <form id="divide">
+      <div class="form-group">
+        <label form="divide1">1st number:</label>
+        <input id="divide1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label form="divide2">2nd number</label>
+        <input id="divide2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="button">Submit!</button>
+    </form>
+    <div id="divideoutput">
+    </div>
+  </div>
+</body>
+
 </html>
